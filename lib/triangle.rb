@@ -8,10 +8,8 @@ class Triangle
   def kind
     if @a==@b && @b==@c
       @type = :equilateral
-    end
     elsif @a==@b || @b==@c || @c==@a
         @type = :isosceles
-    end
     elsif @a!=@b && @b!=@c
         @type = :scalene
     end
