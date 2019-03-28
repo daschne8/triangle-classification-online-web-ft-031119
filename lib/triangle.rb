@@ -9,7 +9,7 @@ class Triangle
     if @a<=0 || @b<=0 || @c<=0
       raise TriangleError
     end
-    
+
 
     if @a==@b && @b==@c
       @type = :equilateral
