@@ -13,7 +13,7 @@ class Triangle
         puts triangle.message
       end
     end
-    
+
     if @a==@b && @b==@c
       @type = :equilateral
     elsif @a==@b || @b==@c || @c==@a
